@@ -394,7 +394,7 @@ export default function Home() {
     if (!email || submitting) return;
     setSubmitting(true);
     try {
-      await fetch("https://formspree.io/f/xpqkeaqe", {
+      await fetch("https://formspree.io/f/xdajaqeq", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, source: "roofready-beta" }),
