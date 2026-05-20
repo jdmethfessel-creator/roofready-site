@@ -463,7 +463,7 @@ export default function Home() {
           </p>
 
           <div className="hero-tagline">
-            The nail gun saved your hands. RoofReady saves your nights.
+            The best thing to happen to roofers since the nail gun.
           </div>
 
           {submitted ? (
