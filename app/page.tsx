@@ -452,7 +452,7 @@ export default function Home() {
           </h1>
 
           <p className="hero-p">
-            Describe the job on your phone. In under a minute your customer has your professionally branded proposal in their inbox — before your competitor makes it back to their truck.
+            Simply describe the job to your phone. In under a minute, your customer has your professionally branded proposal in their inbox. Before your competitor can make it back to their truck.
           </p>
 
           <div className="hero-tagline">
