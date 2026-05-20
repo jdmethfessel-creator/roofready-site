@@ -459,7 +459,7 @@ export default function Home() {
           </h1>
 
           <p className="hero-p">
-            Hold a button. Describe the job. <strong>60 seconds later</strong> your customer has a professional proposal in their inbox — before your competitor even answers their phone.
+            Describe the job on your phone. In under a minute your customer has your professionally branded proposal in their inbox — before your competitor makes it back to their truck.
           </p>
 
           <div className="hero-tagline">
