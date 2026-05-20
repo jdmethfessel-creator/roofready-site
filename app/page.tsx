@@ -102,7 +102,7 @@ nav {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: top;
+  object-position: center 25%;
   z-index: 0;
   filter: brightness(0.15) saturate(0.6);
 }
