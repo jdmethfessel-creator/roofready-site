@@ -422,7 +422,7 @@ export default function Home() {
           Roof<span>Ready</span>
         </div>
         <a href="#form" className="nav-btn">
-          Join Beta — Free
+          Get Early Access
         </a>
       </nav>
 
@@ -459,6 +459,44 @@ export default function Home() {
             The best thing to happen to roofers since the nail gun.
           </div>
 
+          <ul
+            style={{
+              listStyle: "none",
+              padding: 0,
+              margin: "0 auto 32px",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: "8px",
+              fontSize: "14px",
+              color: "#fff",
+              animation: "fadeUp 0.6s 0.22s ease both",
+            }}
+          >
+            {[
+              "Send a professional proposal in 60 seconds",
+              "Your logo, your pricing, your warranty terms",
+              "Customer gets notified when they open it",
+            ].map((line) => (
+              <li
+                key={line}
+                style={{ display: "flex", alignItems: "center", gap: "8px" }}
+              >
+                <span
+                  aria-hidden="true"
+                  style={{
+                    color: "var(--orange, #F97316)",
+                    fontWeight: 700,
+                    fontSize: "13px",
+                  }}
+                >
+                  ✓
+                </span>
+                <span>{line}</span>
+              </li>
+            ))}
+          </ul>
+
           {submitted ? (
             <div className="success-box" role="status">
               <strong>You&apos;re in.</strong> Check your email — we&apos;ll reach out when beta opens. Spots are first-come, first-served.
@@ -475,7 +513,7 @@ export default function Home() {
                   required
                 />
                 <button type="submit" className="hero-btn" disabled={submitting}>
-                  {submitting ? "Saving..." : "Claim Your Beta Spot"}
+                  {submitting ? "Saving..." : "Reserve My Spot"}
                 </button>
               </form>
               <p className="hero-note">
