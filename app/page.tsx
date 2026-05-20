@@ -102,8 +102,9 @@ nav {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top;
   z-index: 0;
-  filter: brightness(0.28) saturate(0.6);
+  filter: brightness(0.15) saturate(0.6);
 }
 
 .hero-fade {
