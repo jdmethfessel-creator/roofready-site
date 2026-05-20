@@ -335,7 +335,6 @@ type Star = {
 };
 
 export default function Home() {
-  const [spotsRemaining, setSpotsRemaining] = useState(47);
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [email, setEmail] = useState("");
@@ -403,7 +402,6 @@ export default function Home() {
     } catch (err) {
       console.error("Formspree error:", err);
     }
-    setSpotsRemaining((n) => (n > 0 ? n - 1 : 0));
     setSubmitted(true);
     setSubmitting(false);
   }
@@ -440,12 +438,7 @@ export default function Home() {
 
         <div className="hero-content">
           <div className="scarcity-badge">
-            <div className="scarcity-dot"></div>
-            <span>
-              <span className="scarcity-count">{spotsRemaining}</span> of 75 beta spots remaining
-            </span>
-            <span className="scarcity-divider">|</span>
-            <span style={{ color: "var(--white-70)" }}>Free for beta testers</span>
+            Join 1,374 other roofers in the beta · Limited slots · Releases 5.23
           </div>
 
           <h1>
