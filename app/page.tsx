@@ -438,7 +438,7 @@ export default function Home() {
 
         <div className="hero-content">
           <div className="scarcity-badge">
-            Join 1,374 other roofers in the beta · Limited slots · Releases 5.25
+            Join 1,374 other roofers in the free beta · Limited slots · Releases 5.25
           </div>
 
           <h1>
